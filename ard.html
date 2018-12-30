@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-image: url('ard.jpg');
+        }
+
+        .festebreite {
+            width: 1050px;
+            margin: auto; /*festebreite wird zentriert*/
+        }
+
+        #topleiste {
+            background-color: #103063;
+            width: 100%; /*gesamte Breite wird eingenommen*/
+            float: left;
+        }
+        
+        #topleiste li {
+            list-style: none;
+            float: left; /*anordnung von links nach rechts*/
+        }
+
+        #topleiste a:link{
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding:10px 5px 1px 5px;
+        }
+
+       #topleiste a:hover {
+            color: black;
+            background-color: white;
+            text-decoration: none;
+        }
+
+        #ardbild {
+            content:url('http://www.ard.de/pool/img/ard/banner/logo_base.png');
+            width: 250px;
+        }
+
+        #suchfeld {
+            float:right;
+            position: relative;
+            top: -42px; /*nach oben verschoben*/
+            left: -60px; /*nach links verschoben*/
+        }
+
+        #suchfeld input {
+            height: 20px;
+            background-image: url('http://www.ard.de/pool/img/base/icon/lupe_gross.png');
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 20px;
+        }
+
+        #blauerbalken {
+            background-color: #6DA0D9;
+            height: 20px;
+            margin: 5px;
+        }
+
+        #topbox {
+            margin-left: auto;
+            margin-right: auto; /*beide margins um die box zu zentrieren*/
+            height: 550px;
+            width: 1050px;
+            background-color: white;
+        }
+        
+        #text {
+            margin-top: 5%;
+        }
+        
+        #picture {
+            float:left;
+            margin-top: 10%;
+            margin-left: 5px;
+        }
+        
+        a:link {
+            text-decoration: none;
+            color: darkblue;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            background-color: grey;
+        }
+        
+        a:visited {
+            text-decoration: none;
+            color: black;
+        }
+        
+        #dreiblocks {
+            width: 1050px;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            margin-top: 20px;
+        }
+        
+        .dreiblöcke {
+            width: 330px;
+            margin: 10px;
+            float: left;
+            overflow: auto;
+        }
+        
+        #grauerbalken {
+            background-color: darkgrey;
+            width: 300px;
+            padding: 2px;
+            margin-bottom: 1px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="topleiste">
+        <ul>
+            <li><a href="#">ARD Home</a></li>
+            <li><a href="#">Nachrichten</a></li>
+            <li><a href="#">Börse</a></li>
+            <li><a href="#">Ratgeber</a></li>
+            <li><a href="#">Wissen</a></li>
+            <li><a href="#">Kultur</a></li>
+            <li><a href="#">Kinder</a></li>
+            <li><a href="#">ARD Intern</a></li>
+            <li><a href="#">Sport</a></li>
+
+            <li><span style="padding-left:200px;"></li>
+
+            <li><a href="#"><b>Fernsehen</b></a></li>
+            <li><a href="#"><b>Radio</b></a></li>
+            <li><a href="#"><b>ARD Mediathek</b></a></li>
+            <li><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/ARD_logo.svg/330px-ARD_logo.svg.png" width=55px;></a></li>
+        </ul>
+    </div>
+
+    <div class="festebreite">
+        <div id="ardbild"></div>
+
+        <div id="suchfeld">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+
+    <div id="topbox";>
+        <div id="blauerbalken">
+            <a href="#"><b>Nachrichten</b></a>
+        </div>
+
+        <div id="picture"><img  style="width:90%;" src="http://www.ard.de/image/2185088/16x9/4789155268567362544/512" ></div>
+   
+    <div>
+        <h2 style="text-align: center">Lorem ipsum dolo</h2>
+        <p id="text"> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd guba.</p>
+        
+        <p><a href="#">Wahlen</a></p>
+        <hr>
+        <p><a href="#">Wissenswertes</a></p>
+        <hr>
+        <p><a href="#">Politik</a></p>
+        <hr>
+    </div>
+    </div>
+    
+    <div id="dreiblocks">
+        <div class="dreiblöcke">
+            <div id="grauerbalken">
+                ARD Mediathek
+            </div>
+                <img src="bridge.jpg" width="300px;" height="250px;">
+            <div id="textmitte">
+                <p>Story about Brooklyn</p> 
+                
+                <h3>A lovely Bridge</h3>
+                
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebun.</p>
+            </div>
+        </div>
+        
+         <div class="dreiblöcke">
+            <div id="grauerbalken">
+                Science
+            </div>
+                <img src="DNA.jpg" width="300px;" height="250px;">
+            <div id="textmitte">
+                <p>Changes in your DNA</p> 
+                
+                <h3>What will come? Will we be all manipulated?</h3>
+                
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebun.</p>
+            </div>
+        </div>
+        
+        <div class="dreiblöcke">
+            <div id="grauerbalken">
+                Nature & Care
+            </div>
+                <img src="turtle.jpg" width="300px;" height="250px;">
+            <div id="textmitte">
+                <p>Too much plastic in the Seas</p> 
+                
+                <h3>Poor little turtle with Plastic inside</h3>
+                
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebun.</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
